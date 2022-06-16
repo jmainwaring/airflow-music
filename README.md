@@ -1,4 +1,4 @@
-# airflow-nanodegree
+# airflow-music
 
 ## Background
 The primary goal was to create an Airflow DAG that manages a fictional music streaming company's ETL process. This required the construction of four custom Operator classes: `StageToRedshiftOperator`, `LoadFactOperator`, `LoadDimensionOperator`, and a `DataQualityOperator`, to help break the pipeline up into reusable components. All of these operators and task instances run SQL statements against a Redshift database. 
